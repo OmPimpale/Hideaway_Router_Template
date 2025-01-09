@@ -1,0 +1,698 @@
+:root {
+    --headfont: "Playfair Display", serif;
+    --subfont: "Hind Madurai", sans-serif;
+    --black: rgb(36, 7, 1);
+    --white: white;
+    --textcolor: rgb(127, 127, 127);
+}
+
+body {
+    padding: 12.5px;
+    /* background-color: aquamarine !important; */
+}
+
+/* navbar */
+#navdiv {
+    padding-top: 80px !important;
+}
+
+.navbar-brand {
+    font: 600 27.5px var(--headfont) !important;
+    color: var(--white) !important;
+}
+
+.nav-link {
+    font: 600 16px var(--subfont) !important;
+    color: var(--white) !important;
+}
+
+#hidebtn {
+    color: var(--white);
+}
+
+.navicon {
+    color: var(--white);
+    font-size: 13px;
+}
+
+#bookingbtn {
+    font: 700 13px var(--subfont);
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 10px 80px !important;
+}
+
+#navdiv {
+    position: absolute !important;
+    background-color: transparent;
+    margin-top: 100px;
+    padding: 2.5px !important;
+}
+
+/* herosection */
+#slide1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url('../public/main-header-3.jpg');
+    padding: 185px 0px;
+    padding-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url('../public/main-header-1.jpg');
+    padding: 185px 0px;
+    padding-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url('../public/main-header-2.jpg');
+    padding: 185px 0px;
+    padding-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.herohead1 {
+    font: 500 13px var(--subfont);
+    color: var(--white);
+    letter-spacing: 2px;
+}
+
+.herohead2 {
+    font: 500 40px var(--headfont);
+    color: var(--white);
+}
+
+.empword {
+    font-style: italic;
+}
+
+.herodownbtn {
+    color: var(--white);
+    padding-top: 140px;
+}
+
+/* images */
+#images {
+    margin: 125px 0px;
+}
+
+#img1 {
+    background-image: url('../public/thumb-gallery.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+#img2 {
+    background-image: url('../public/thumb-amneities.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+#img3 {
+    background-image: url('../public/thumb-packages.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.imgtext {
+    font: 500 28px var(--headfont);
+    color: var(--white);
+}
+
+#historyhead {
+    font: 500 28px var(--headfont);
+    letter-spacing: .9px;
+}
+
+#historytext {
+    font: 400 16px var(--subfont);
+    color: var(--textcolor);
+    line-height: 26px;
+}
+
+#historybtn {
+    font: 300 13.5px var(--subfont);
+    color: var(--black);
+    padding: 15px 45px !important;
+    border-width: 2px !important;
+    transition: all .5s;
+}
+
+#historybtn:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* book */
+#bookingparent {
+    padding: 0px 12.5px;
+}
+
+#bookimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('../public/cta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+
+#bookhead {
+    font: 500 33px var(--headfont);
+    color: var(--white);
+    line-height: 35px;
+}
+
+#bookbtn {
+    font: 500 14px var(--subfont);
+    color: var(--white);
+    padding: 15px 45px !important;
+    border-width: 2px !important;
+    transition: all 0.5s;
+}
+
+#bookbtn:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* aboutus */
+#aboutus {
+    margin: 125px 0px !important;
+}
+
+.abouttext {
+    font: 500 16px var(--headfont) !important;
+    line-height: 19px !important;
+    color: var(--black);
+}
+
+.aboutanchor:hover {
+    text-decoration: underline !important;
+}
+
+iframe {
+    height: 400px;
+}
+
+/* footer */
+#footer {
+    padding: 0px 12px;
+}
+
+#foot {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../public/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foothead {
+    font: 500 23px var(--headfont);
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: var(--white);
+}
+
+#foottext {
+    font: 400 16px var(--subfont);
+    line-height: 26px;
+    color: var(--white);
+}
+
+input {
+    padding: 12.5px 0px !important;
+    padding-left: 15px !important;
+}
+
+input::placeholder {
+    font: 600 13px var(--subfont) !important;
+    color: gray !important;
+}
+
+#footbtn {
+    font: 500 14px var(--subfont);
+    background-color: var(--white);
+    padding: 15px 100px;
+    transition: all 0.5s !important;
+}
+
+#footbtn:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.footlink {
+    font: 400 13px var(--subfont);
+    color: rgb(190, 190, 190);
+}
+
+.footlink:hover {
+    text-decoration: underline !important;
+}
+
+#copyright {
+    font: 400 13px var(--subfont);
+    color: rgb(190, 190, 190);
+    line-height: 25px;
+}
+
+.owner {
+    color: rgb(190, 190, 190);
+    font-weight: 800;
+}
+
+.owner:hover {
+    text-decoration: underline !important;
+}
+
+/* galleryhero */
+#galleryhero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('../public/main-header-1.jpg');
+    /* margin: 0px; */
+    padding-top: 150px;
+    padding-bottom: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#galleryheroparent {
+    padding: 0px 12.5px !important;
+}
+
+#galleryhead {
+    font: 500 40px var(--headfont);
+    color: var(--white);
+}
+
+/* packages */
+#price {
+    padding: 100px 0px;
+}
+
+#priceparent1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../public/1.jpg');
+    padding: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#priceparent2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../public/5.jpg');
+    padding: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#priceparent3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../public/9.jpg');
+    padding: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#priceparent4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../public/11.jpg');
+    padding: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#priceparent5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../public/4.jpg');
+    padding: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#priceparent6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../public/6.jpg');
+    padding: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#price1,
+#price2,
+#price3,
+#price4,
+#price5,
+#price6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    padding: 48px 15px;
+    border: 1px solid rgb(109, 109, 109);
+}
+
+.pricehead {
+    font: 500 19px var(--headfont);
+    color: var(--white);
+    line-height: 23px;
+}
+
+.pricing {
+    font: 400 13.5px var(--subfont);
+    color: var(--white);
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6 {
+    background-color: var(--white) !important;
+    font: 500 13.5px var(--subfont) !important;
+    color: var(--black) !important;
+    padding: 6.4px 19.2px !important;
+    display: none;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover,
+#btn6:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+/* history */
+#info {
+    padding: 100px 0px;
+}
+
+#infohead {
+    font: 500 28px var(--headfont);
+    color: var(--black);
+    letter-spacing: 2px;
+}
+
+#infotext {
+    font: 300 19px var(--subfont);
+    color: var(--textcolor);
+    line-height: 31px;
+}
+
+.infopara {
+    font: 400 16px var(--subfont);
+    color: var(--textcolor);
+    line-height: 26px;
+}
+
+#infoword {
+    font: 400 50px var(--headfont);
+    color: rgb(75, 32, 23);
+    margin-bottom: -500px;
+}
+
+#infohead2 {
+    font: 500 23px var(--headfont);
+    color: rgb(75, 32, 23);
+}
+
+/* contact */
+#galleryhead2{
+    font: 500 14px var(--subfont);
+    color: var(--white);
+    letter-spacing: 2px;
+}
+
+#form{
+    padding: 100px 0px;
+}
+
+.formhead{
+    font: 500 19px var(--headfont);
+}
+
+.formhead2{
+    font: 500 23px var(--headfont);
+}
+
+.forminfo{
+    font: 400 16px var(--subfont);
+    line-height: 26px;
+    color: var(--textcolor);
+}
+
+.sociallinks{
+    color: var(--black);
+    font-size: 23px;
+}
+
+#formbtn{
+    font: 600 14px var(--subfont);
+    color: var(--white);
+    background-color: var(--black);
+    padding: 15px 45px;
+}
+
+.contactform::placeholder{
+    font: 500 13.5px var(--subfont) !important;
+    color: var(--textcolor) !important;
+}
+
+
+@media only screen and (min-width:768px) {
+
+    body {
+        padding: 49px;
+    }
+
+    /* navbar */
+    #bookingbtn {
+        padding: 10px 200px !important;
+    }
+
+    /* herosection */
+    #slide1,
+    #slide2,
+    #slide3 {
+        padding: 235px 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* images */
+    #img1,
+    #img2,
+    #img3 {
+        padding: 200px 0px;
+    }
+
+    /* aboutus */
+    iframe {
+        height: 350px;
+    }
+
+    /* footer */
+    #footbtn {
+        padding: 15px 60px;
+    }
+
+    /* galleryhero */
+    #allimg {
+        padding: 0px 12.5px;
+    }
+
+    #galleryheroparent {
+        padding: 0px 25px !important;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+
+    /* navbar */
+    #navbarSupportedContent {
+        margin: 0px 25px !important;
+        /* margin-bottom: 0px !important; */
+    }
+
+    #bookingbtn {
+        padding: 10px 30px !important;
+    }
+
+    /* herosection */
+    #slide1,
+    #slide2,
+    #slide3 {
+        padding: 203px 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .herohead1 {
+        font-size: 16px;
+    }
+
+    .herohead2 {
+        font-size: 58px;
+    }
+
+    /* images */
+    #img1,
+    #img2,
+    #img3 {
+        padding: 120px 0px;
+    }
+
+    /* galleryhero */
+    #galleryhead {
+        font-size: 57px;
+    }
+
+    #allimg {
+        padding: 0px 25px;
+    }
+
+    /* package */
+    #priceparent1,
+    #priceparent2,
+    #priceparent3,
+    #priceparent4,
+    #priceparent5,
+    #priceparent6 {
+        padding: 64px;
+    }
+
+    /* history */
+    #infochild{
+        position: sticky;
+        top: 50px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+
+    /* herosection */
+    #slide1,
+    #slide2,
+    #slide3 {
+        padding: 215px 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .herohead2 {
+        margin-bottom: 100px;
+    }
+
+    /* images */
+    #img1,
+    #img2,
+    #img3 {
+        padding: 150px 0px;
+    }
+
+    /* book */
+    #bookimg {
+        padding: 250px 0px;
+    }
+
+    #bookhead {
+        font-size: 57px;
+    }
+
+    #bookbtn {
+        padding: 20px 45px !important;
+    }
+
+    /* galleryhero */
+    #galleryhero {
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+
+    /* package */
+    #priceparent1,
+    #priceparent2,
+    #priceparent3,
+    #priceparent4,
+    #priceparent5,
+    #priceparent6 {
+        padding: 80px 64px;
+    }
+}
+
+@media only screen and (min-width:2560px) {
+
+    /* navbar */
+    #navbar {
+        padding: 0px 550px;
+    }
+
+    /* herosection */
+    #slide1,
+    #slide2,
+    #slide3 {
+        padding: 450px 0px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .herohead2 {
+        margin-bottom: 500px;
+    }
+
+    /* images */
+    #images {
+        padding: 0px 550px;
+    }
+
+    /* aboutus */
+    #aboutus {
+        padding: 0px 550px;
+    }
+
+    /* footer */
+    #footform {
+        padding: 0px 225px;
+    }
+
+    /* galleryhero */
+    #galleryhero {
+        padding-top: 400px;
+        padding-bottom: 300px;
+    }
+
+    /* packege */
+    #price {
+        padding: 0px 550px;
+    }
+
+    /* History */
+    #info{
+        padding: 100px 550px;
+    }
+
+    /* contact */
+    #form{
+        padding: 100px 550px;
+    }
+}

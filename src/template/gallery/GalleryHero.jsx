@@ -1,0 +1,17 @@
+let GalleryHero = () => {
+    return (
+        <>
+            <section className="row">
+                <div className="col p-md-0">
+                    <section className="row justify-content-center" id="galleryheroparent">
+                        <div className="col-12 mb-3" id="galleryhero">
+                            <h4 id="galleryhead" className="text-center">Gallery</h4>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </>
+    )
+}
+
+export default GalleryHero;
