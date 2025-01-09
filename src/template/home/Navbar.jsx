@@ -55,7 +55,7 @@ let Navbar = () => {
                                             </a>
                                         </div>
                                         <div className="text-center">
-                                            <button type="button" className="btn rounded-0 mx-lg-3" id="bookingbtn">Book Now</button>
+                                            <Link to={"/Packages"} type="button" className="btn rounded-0 mx-lg-3" id="bookingbtn">Book Now</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 let Footer = () => {
     return (
         <>
@@ -15,10 +17,10 @@ let Footer = () => {
                         <div className="col-12 col-xxl-8 mt-5">
                             <div className="row">
                                 <div className="col-12 d-lg-none">
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Home</a>
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Book&nbsp;Now</a>
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Contact</a>
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Events</a>
+                                    <Link to={"/"} className="text-decoration-none mx-2 footlink">Home</Link>
+                                    <Link to={"/Packages"} className="text-decoration-none mx-2 footlink">Book&nbsp;Now</Link>
+                                    <Link to={"/Contact"} className="text-decoration-none mx-2 footlink">Contact</Link>
+                                    <Link to={"/History"} className="text-decoration-none mx-2 footlink">Events</Link>
                                     <br className="d-md-none" />
                                     <a href="#" className="text-decoration-none mx-2 footlink">Policies</a>
                                     <a href="#" className="text-decoration-none mx-2 footlink">Term &amp; Conditions</a>
@@ -27,10 +29,10 @@ let Footer = () => {
                                     <p id="copyright">&copy; 2024 | Template Crafted by : <a href="#" className="text-decoration-none owner"> <br className="d-md-none" /> Om Pimpale (PP113)</a>.</p>
                                 </div>
                                 <div className="col-12 col-lg-7 d-none d-lg-inline">
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Home</a>
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Book&nbsp;Now</a>
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Contact</a>
-                                    <a href="#" className="text-decoration-none mx-2 footlink">Events</a>
+                                    <Link to={"/"} className="text-decoration-none mx-2 footlink">Home</Link>
+                                    <Link to={"/Packages"} className="text-decoration-none mx-2 footlink">Book&nbsp;Now</Link>
+                                    <Link to={"/Contact"} className="text-decoration-none mx-2 footlink">Contact</Link>
+                                    <Link to={"/History"} className="text-decoration-none mx-2 footlink">Events</Link>
                                     <br className="d-md-none" />
                                     <a href="#" className="text-decoration-none mx-2 footlink">Policies</a>
                                     <a href="#" className="text-decoration-none mx-2 footlink">Term &amp; Conditions</a>
