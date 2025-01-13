@@ -16,12 +16,12 @@ let MoreAboutUs = () => {
                                     <a href="#" className="text-decoration-none aboutlink mx-1 abouttext aboutanchor">Twitter</a>
                                 </div>
 
-                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="public\3.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
-                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="public\8.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
-                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="public\5.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
-                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="public\1.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
-                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="public\6.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
-                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="public\12.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
+                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="./3.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
+                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="./8.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
+                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="./5.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
+                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="./1.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
+                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="./6.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
+                                <a href="#" className="text-decoration-none col-md-6 col-lg-4"><img src="./12.jpg" alt="gallery" className="img-fluid my-1 my-md-3" /></a>
                             </div>
                         </div>
                     </section>
