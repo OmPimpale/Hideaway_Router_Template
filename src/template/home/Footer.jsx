@@ -26,7 +26,7 @@ let Footer = () => {
                                     <a href="#" className="text-decoration-none mx-2 footlink">Term &amp; Conditions</a>
                                 </div>
                                 <div className="col-12 col-lg-5 mt-2 m-lg-0">
-                                    <p id="copyright">&copy; 2024 | Template Crafted by : <a href="https://ompimpale.github.io/Om_Pimpale_Portfolio/" className="text-decoration-none owner"> <br className="d-md-none" /> Om Pimpale (PP113)</a>.</p>
+                                    <p id="copyright">&copy; 2024 | Template Crafted by : <a href="https://ompimpale.github.io/Om_Portfolio/" className="text-decoration-none owner"> <br className="d-md-none" /> Om Pimpale (PP113)</a>.</p>
                                 </div>
                                 <div className="col-12 col-lg-7 d-none d-lg-inline">
                                     <Link to={"/"} className="text-decoration-none mx-2 footlink">Home</Link>
