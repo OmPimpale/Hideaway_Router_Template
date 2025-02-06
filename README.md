@@ -50,7 +50,7 @@ root
 
 ```sh
 git clone https://github.com/OmPimpale/Hideaway_Router_Template.gitgit
-cd your-repo
+cd Hideaway_Router_Template
 ```
 
 2️⃣ Install Dependencies
