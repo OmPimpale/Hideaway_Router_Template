@@ -49,7 +49,7 @@ root
 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/OmPimpale/Hideaway_Router_Template.gitgit
+git clone https://github.com/OmPimpale/Hideaway_Router_Template.git
 cd Hideaway_Router_Template
 ```
 
